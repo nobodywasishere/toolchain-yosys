@@ -10,11 +10,10 @@ export LC_ALL=C
 # Releases are downloadedt from: https://github.com/open-tool-forge/fpga-toolchain
 
 # -- yosys apio package version
-# used for fpga-toolchain version as well
-VERSION=2021.03.16
+VERSION=2021.3.16
 
 # -- fpga-toolchain version to download
-SRC_VER="nightly-"$(echo $VERSION | sed 's/\.//g')
+SRC_VER="nightly-20210316"
 
 # -- Target architectures
 ARCH=$1
